@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env.local
+.env
+data/*.json
+data/*.csv
+!data/.gitkeep
+*.log

@@ -1,0 +1,39 @@
+/* Phase 6: deliberately minimal. Prove search correctness before polishing. */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 16px;
+  color: #1a1a1a;
+}
+
+input[type='text'] {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+
+.passage {
+  margin: 20px 0;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.reference {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.verse-num {
+  font-size: 0.75em;
+  vertical-align: super;
+  color: #888;
+  margin-right: 2px;
+}
+
+.status {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 12px 0;
+}

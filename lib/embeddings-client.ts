@@ -13,11 +13,6 @@ env.allowLocalModels = false;
 env.useBrowserCache = true;
 env.allowRemoteModels = true;
 
-// Disable ONNX backend (requires native bindings) - use WASM instead
-if (typeof window !== 'undefined') {
-  env.backends.onnx = false;
-}
-
 let embedderPromise: Promise<FeatureExtractionPipeline> | null = null;
 
 function getEmbedder(): Promise<FeatureExtractionPipeline> {
